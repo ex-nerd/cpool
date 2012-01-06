@@ -5,9 +5,9 @@ A simple connection pool handler that maintains a pool of connection objects
 Sample usage::
 
     from mylibrary import MyConnectionClass
-    from cpool import Pool
+    from cpool import CPool
 
-    MyPool= Pool(MyConnectionClass)
+    MyPool= CPool(MyConnectionClass)
     MyPool.configure(host = 'myhost', port = '12345')
     conn = MyPool()
     conn.do_comething()
@@ -19,7 +19,7 @@ except ImportError:
     import dummy_threading as threading
 
 
-class Pool(object):
+class CPool(object):
     """
     Simple Connection pool based on sqlalchemy.orm.ScopedSession and
     sqlalchemy.util.ThreadLocalRegistry

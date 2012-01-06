@@ -11,9 +11,9 @@ Sample usage
 ::
 
     from mylibrary import MyConnectionClass
-    from cpool import Pool
+    from cpool import CPool
 
-    MyPool= Pool(MyConnectionClass)
+    MyPool= CPool(MyConnectionClass)
     MyPool.configure(host = 'myhost', port = '12345')
     conn = MyPool()
     conn.do_comething()
