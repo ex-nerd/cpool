@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='cpool',
-    version='0.1.1',
+    version='0.1.2',
     author='Chris Petersen',
     author_email='geek@ex-nerd.com',
     packages=['cpool'],
