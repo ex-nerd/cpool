@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='cpool',
-    version='0.2.0',
+    version='0.2.1',
     author='Chris Petersen',
     author_email='geek@ex-nerd.com',
     py_modules=['cpool'],
@@ -10,7 +10,5 @@ setup(
     license='LICENSE.txt',
     description='Simple Connection Pool handler',
     long_description=open('README.rst').read(),
-    install_requires=[
-        "threading",
-    ],
+    install_requires=[],
 )
