@@ -1,3 +1,4 @@
+v0.2.2, 2012-01-06 -- use setuptools instead of distutils
 v0.2.1, 2012-01-06 -- remove "threading" install requirement
 v0.2.0, 2012-01-06 -- rename cpool.Pool to cpool.CPool, move module to single file
 v0.1.2, 2012-01-05 -- Mostly text and URL changes

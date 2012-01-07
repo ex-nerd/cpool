@@ -1,8 +1,8 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='cpool',
-    version='0.2.1',
+    version='0.2.2',
     author='Chris Petersen',
     author_email='geek@ex-nerd.com',
     py_modules=['cpool'],
